@@ -1,11 +1,14 @@
 {
-  "name": "skipper-gcstorage",
+  "name": "@chenglongma/skipper-gcstorage",
   "version": "1.0.1",
   "description": "A skipper adapter used for uploading files to Google Cloud Storage",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ChenglongMa/skipper-gcstorage.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
